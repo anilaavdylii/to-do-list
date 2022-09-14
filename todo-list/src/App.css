@@ -1,8 +1,14 @@
 .header{
   height: 200px;
   width: 100%;
-  background-color : #E9EEF6;
+  background-color : #fbecfc;
   padding-top: 50px;
+  color: rgb(152, 102, 149);
+  font-weight: 700;
+}
+
+h3{
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .card-container{
@@ -43,10 +49,11 @@
 }
 
 .task-container{
-  height: 600px;
+  height: 800px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   background-color: #F6F7F8;
   padding : 40px 100px;
+  justify-content: space-evenly;
 }
